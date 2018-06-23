@@ -1,0 +1,29 @@
+$(document).ready(function(){
+	$(".hideAnchorTh").click(function(){
+		$(".hideAnchor").addClass("hide");
+	});
+	$(".hideGlobalTh").click(function(){
+		$(".hideGlobal").addClass("hide");
+	});
+	$(".hideCubeTh").click(function(){
+		$(".hideCube").addClass("hide");
+	});
+	$(".hideDiamondTh").click(function(){
+		$(".hideDiamond").addClass("hide");
+	});
+	$(".hideGlobalThfirstLine").click(function(){
+		$(".hideGlobalfirstLine").addClass("hide");
+	});
+	$(".hideDiamondThFifthLine").click(function(){
+		$(".hideDiamondFifthLine").addClass("hide");
+	});
+	$(".hideAnchorThLastLine").click(function(){
+		$(".hideAnchorLastLine").addClass("hide");
+	});
+	$(".hideGlobalThLastLine").click(function(){
+		$(".hideGlobalLastLine").addClass("hide");
+	});
+	$(".hideCubeThOne").click(function(){
+		$(".hideCubeOne").addClass("hide");
+	});
+});
